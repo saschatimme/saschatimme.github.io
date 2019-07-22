@@ -3,12 +3,11 @@
 	<h1 class="site-title">{{ .Site.Title }}</h1>
 	<div class="site-affilation">
 		<span class="affilation">
-			{{- range $index, $key := .Site.Params.affilation -}}
 			<ul class="flat">
-				<li class="position">{{$key.position}}, {{$key.name}}</li>
-				<li class="email">{{ $key.contact}}</li>
+				<li class="position">PhD Student, TU Berlin</li>
+				<li class="email">timme@math.tu-berlin.de</li>
+				<li class="email">sascha@timme.xyz</li>
 			</ul>
-			{{- end -}}
 		</span>
 		<!--
       {{- if isset .Site.Params "subtitle" -}}
