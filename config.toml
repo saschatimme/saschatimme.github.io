@@ -1,0 +1,104 @@
+baseURL = "https://sascha.timme.xyz"
+languageCode = "en-us"
+title = "Sascha Timme"
+theme = "avicenna"
+googleAnalytics = "UA-1234-6"
+timeout=3000
+
+[params]
+  subtitle= "PhD Student"
+  interests="Nonlinear Algebra, Polynomial System Solving, Julia, Numerical Computations"
+  #cv_name= "HadiSinaee_CV.pdf"
+  #blog="http://myblog.edu"
+
+[[params.affilation]]
+  name = "TU Berlin"
+  position = "PhD Student"
+  contact = "timme@math.tu-berlin.de"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/saschatimme"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://www.linkedin.com/in/sascha-timme-528635a7/"
+
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
+		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
+		project_page = "https://myprojecthomepage.com"
+		code_link = "https://coderepo.com"
+		blog_link = "https://ablogpost.com"
+
+ [[params.projects.project]]
+		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
+		description  = ""
+		project_page = "https://myprojecthomepage.com"
+		code_link = "https://coderepo.com"
+		blog_link = ""
+
+ [[params.projects.project]]
+		name = "Integer eget aliquet nibh praesent tristique magna"
+		description  = ""
+		project_page = "https://myprojecthomepage.com"
+		code_link = ""
+		blog_link = "https://ablogpost.com"
+
+[[params.publications]]
+  year="Preprint"
+
+  [[params.publications.paper]]
+    name = "Enim nunc faucibus a pellentesque sit amet porttitor"
+    authors = "Ana Alvardo, William Worthley, __Hadi Sinaee__"
+    dest  = "Helga Zita Journal"
+    link = "https://mypaperishere.com"
+    code_link = "https://thecoderepo.com"
+    blog_link = "https://myblogaboutit.com"
+
+  [[params.publications.paper]]
+    name = "In cursus turpis massa tincidunt dui ut ornare lectus sit"
+    authors = "__Hadi Sinaee__,Les Larkins, Edra Ethier"
+    dest  = "Meklit Katlego Conference"
+    link = "https://mypaperishere.com"
+    code_link = "https://thecoderepo.com"
+    blog_link = "https://myblogaboutit.com"
+
+[[params.publications]]
+  year="2019"
+
+  [[params.publications.paper]]
+		name = "Feugiat sed lectus vestibulum mattis ullamcorper velit sed"
+		authors = "Caroll Comes, __Hadi Sinaee__"
+		dest  = "Udo Madhu Journal"
+		link = "https://mypaperishere.com"
+		code_link = "https://thecoderepo.com"
+		blog_link = ""
+
+  [[params.publications.paper]]
+		name = "Venenatis urna cursus eget nunc. Nam aliquam sem et tortor consequat id porta nibh venenatis"
+		authors = "Les Larkins, Ana Alvardo, __Hadi Sinaee__ "
+		dest  = "Zorka Vita Conference"
+		link = "https://mypaperishere.com"
+		code_link = ""
+		blog_link = "https://myblogaboutit.com"
+
+  [[params.publications.paper]]
+		name = "Aliquet eget sit amet tellus cras adipiscing enim eu turpis"
+		authors = "Les Larkins, __Hadi Sinaee__, Ana Alvardo"
+		dest  = "Lena Randa Conference"
+		link = "https://mypaperishere.com"
+		code_link = ""
+		blog_link = ""
+
+  [[params.publications.paper]]
+		name = "Orci eu lobortis elementum nibh tellus molestie nunc non blandit"
+		authors = "__Hadi Sinaee__, Caroll Comes"
+		dest  = "Thandeka Radhika Conference"
+		link = ""
+		code_link = ""
+		blog_link = ""
