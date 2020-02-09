@@ -408,3 +408,11 @@ ul {
     font-size: 14px;
   }
 }
+
+.gh-logo {
+  width: 28px;
+}
+
+.gh-logo:hover {
+  transform: scale(1.1);
+}
