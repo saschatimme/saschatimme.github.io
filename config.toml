@@ -6,7 +6,7 @@ googleAnalytics = "UA-1234-6"
 timeout=3000
 
 [params]
-  subtitle= "PhD Student"
+  subtitle= ""
   interests="Nonlinear Algebra, Polynomial System Solving, Julia, Numerical Computations"
   #cv_name= "HadiSinaee_CV.pdf"
   #blog="http://myblog.edu"
